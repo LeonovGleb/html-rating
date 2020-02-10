@@ -1,0 +1,28 @@
+.rating {
+    width: 200px;
+    height: 150px;
+}
+
+.rating-wrapper {
+    position: relative;
+    width: 88px;
+    height: 36px;
+}
+
+.rating-stars-gray,
+.rating-stars-gold {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.rating-stars-gray {
+    background: url(../img/stars-gray.png) no-repeat #fff;
+}
+
+.rating-stars-gold {
+    background: url(../img/stars-gold.png) no-repeat #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
